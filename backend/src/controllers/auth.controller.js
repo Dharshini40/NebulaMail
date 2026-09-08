@@ -7,7 +7,7 @@ import {
 } from '../services/oauth.service.js';
 
 function getFrontendUrl() {
-  return process.env.FRONTEND_URL || 'http://localhost:5173';
+  return process.env.FRONTEND_URL || 'https://nebulamail.onrender.com';
 }
 
 function hasGoogleConfig() {
