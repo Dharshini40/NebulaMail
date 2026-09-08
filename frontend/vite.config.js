@@ -8,7 +8,7 @@ export default defineConfig({
     allowedHosts: ['nebulamail-frontend.onrender.com'],
     proxy: {
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'https://nebulamail.onrender.com',
         changeOrigin: true
       }
     }
